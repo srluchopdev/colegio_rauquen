@@ -1,0 +1,254 @@
+/*posicion del header*/
+.header{
+    top: 0;
+    left: 0%;
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    background-color: rgba(255, 127, 127, 0.473);
+}
+
+/*posicion del logo del colegio*/
+.logo{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+}
+
+/*sosicion y estilos del contenido de home de la pagina*/
+.info{
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/*posicion y estilos de h1 de bienvenida*/
+.bienvenida{
+    /*position: absolute;*/
+    display: flex;
+    /*left: 50%;*/
+    text-align: center;
+    justify-content: center;
+}
+
+/*estilo de colores de los botones*/
+.btn{
+    color: aqua;
+    border-radius: 10%;
+    background-color: blue;
+    margin-left: 12px;
+}
+
+/*posicion de los botones*/
+.botones{
+    position: absolute;
+    top: 15%;
+    right: 3%;
+}
+
+.botones_2{
+    position: absolute;
+    top: 55%;
+    right: 3%;
+    
+}
+
+.relevantes{
+    position: absolute;
+    background-color: aqua;
+    width: 30%;
+    height: 750%;
+    margin-left: 1%;
+}
+
+.noticias{
+    position: absolute;
+    background-color: teal;
+    width: 100%;
+    height: 33%;
+}
+
+.importante{
+    top: 35%;
+    position: absolute;
+    background-color: rgb(51, 218, 218);
+    width: 100%;
+    height: 33%;
+}
+
+.eventos{
+    top: 70%;
+    position: absolute;
+    background-color: rgb(51, 62, 218);
+    width: 100%;
+    height: 33%;
+}
+
+.calendario{
+    position: absolute;
+    left: 32%;
+    background-color: blue;
+    width: 67%;
+    height: 775%;
+}
+
+.accesos{
+    position: absolute;
+    color: black;
+    top: 900%;
+    left: 7%;
+}
+
+.app{
+    position: absolute;
+    top: 950%;
+    left: 7%;
+}
+
+.directos{
+    position: absolute;
+    background-color: rgba(165, 42, 42, 0.185);
+    width: 85%;
+    height: 390%;
+    top: 1000%;
+    left: 7%;
+}
+
+.full{
+    position: absolute;
+    background-color: white;
+    top: 15%;
+    left: 7%;
+    width: 40%;
+    height: 35%;
+}
+
+.puntaje{
+    position: absolute;
+    background-color: white;
+    top: 15%;
+    right: 7%;
+    width: 40%;
+    height: 35%;
+}
+
+.consejo{
+    position: absolute;
+    background-color: white;
+    top: 55%;
+    right: 7%;
+    width: 40%;
+    height: 35%;
+}
+
+.guia{
+    position: absolute;
+    background-color: white;
+    top: 55%;
+    left: 7%;
+    width: 40%;
+    height: 35%;
+}
+
+.imph{
+    position: absolute;
+    left: 2%;
+}
+
+.imp{
+    position: absolute;
+    left: 2%;
+    top: 35%;
+}
+
+.pds{
+    position: absolute;
+    top: 1400%;
+    left: 7%;
+}
+
+.pdss{
+    position: absolute;
+    top: 1450%;
+    left: 7%;
+}
+
+.padres{
+    background-color: aqua;
+    position: absolute;
+    top: 1500%;
+    left: 7%;
+    width: 85%;
+    height: 500%;
+}
+
+.c{
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+
+.p{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+}
+
+.t{
+    position: absolute;
+    top: 15%;
+    left: 65%;
+}
+
+.re{
+    position: absolute;
+    left: 7%;
+    top: 2000%;
+}
+
+.fe{
+    position: absolute;
+    left: 7%;
+    top: 2050%;
+}
+
+.recursos{
+    background-color: rgba(240, 248, 255, 0.616);
+    position: absolute;
+    top: 2100%;
+    left: 7%;
+    width: 85%;
+    height: 400%;
+}
+
+.i1{
+    position: absolute;
+    top: 12%;
+    left: 7%;
+}
+
+.i2{
+    position: absolute;
+    top: 12%;
+    left: 32%;
+}
+
+.i3{
+    position: absolute;
+    top: 12%;
+    left: 65%;
+}
+
+.i4{
+    position: absolute;
+    top: 60%;
+    left: 17%;
+}
+
+.i5{
+    position: absolute;
+    top: 60%;
+    left: 52%;
+}
