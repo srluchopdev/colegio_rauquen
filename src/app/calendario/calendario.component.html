@@ -1,3 +1,10 @@
-<body>
-    <full-calendar [options]="calendarOptions"></full-calendar>
-</body>
+<calendar [view]="'month'" [events]="events"></calendar>
+
+<form (ngSubmit)="onAddEvent()">
+    <input type="date" [(ngModel)]="event.start" placeholder="Fecha de inicio">
+    <input type="time" [(ngModel)]="event.start" placeholder="Hora de inicio">
+    <input type="date" [(ngModel)]="event.end" placeholder="Fecha de finalización">
+    <input type="time" [(ngModel)]="event.end" placeholder="Hora de finalización">
+    <input type="text" [(ngModel)]="event.title" placeholder="Título">
+    <button type="submit">Agregar evento</button>
+  </form>

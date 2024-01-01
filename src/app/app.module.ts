@@ -1,20 +1,23 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { FullCalendarModule } from '@fullcalendar/angular';
 import { FormsModule } from '@angular/forms';
+import { EventoComponent } from './Evento/Evento.component';
+import { EventosService } from './Evento/EventosService.service';
+import { CalendarModule } from 'angular-calendar';
 
 @NgModule({
- declarations: [
-    AppComponent
- ],
+ declarations: [	
+    AppComponent,
+      EventoComponent
+   ],
  imports: [
     BrowserModule,
-    FullCalendarModule,
     FormsModule,
+    CalendarModule
  ],
 
- providers: [],
+ providers: [EventosService],
  bootstrap: [AppComponent]
 })
 
